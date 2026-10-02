@@ -23,6 +23,7 @@ class Planet {
 
  
 }
+}
 
 class DwarfPlanet extends Planet {
   final int reclassifiedYear;
@@ -31,6 +32,8 @@ class DwarfPlanet extends Planet {
     required super.name,
     required super.distanceAu,
     required super.moons,
+    super. hasRings= false,
+    super.nickname,
     required this.reclassifiedYear
   });
 
